@@ -3,7 +3,6 @@ import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import logoEmpire from '@/assets/logo-empire.svg';
-import { reachGoal } from '@/lib/metrika';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -99,7 +98,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:+79002885255"
-              onClick={() => reachGoal('phone_click')}
+              data-track-placement="header"
               className="flex items-center gap-2 text-base font-extrabold text-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-5 h-5" />
@@ -152,7 +151,7 @@ const Header = () => {
             ))}
             <a
               href="tel:+79002885255"
-              onClick={() => reachGoal('phone_click')}
+              data-track-placement="header_mobile"
               className="px-4 py-3 flex items-center gap-2 font-extrabold text-foreground"
             >
               <Phone className="w-5 h-5" />

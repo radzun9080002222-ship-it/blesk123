@@ -1,7 +1,6 @@
 import { Sparkles, MapPin, Phone, Mail, MessageCircle, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import maxIcon from '@/assets/max-icon.webp';
-import { reachGoal } from '@/lib/metrika';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -48,7 +47,7 @@ const Footer = () => {
             <div className="space-y-3">
               <a
                 href="tel:+79002885255"
-                onClick={() => reachGoal('phone_click')}
+                data-track-placement="footer"
                 className="flex items-center gap-3 text-sm text-background/70 hover:text-primary transition-colors"
               >
                 <Phone className="w-4 h-4" />

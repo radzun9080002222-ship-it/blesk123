@@ -1,5 +1,4 @@
 import { Check, MessageCircle, Phone, Send } from 'lucide-react';
-import { reachGoal } from '@/lib/metrika';
 import maxIcon from '@/assets/max-icon.webp';
 
 const PHONE = '+7 900 288-52-55';
@@ -39,7 +38,7 @@ const CallForPrice = ({
 
         <a
           href={PHONE_HREF}
-          onClick={() => reachGoal('phone_click', { placement: 'call_for_price' })}
+          data-track-placement="call_for_price"
           className="mt-8 inline-flex items-center justify-center gap-3 rounded-full bg-[#41BFAE] px-8 py-4 text-xl font-bold text-[#003F3B] shadow-xl transition hover:bg-[#41BFAE]/90 md:text-2xl"
         >
           <Phone className="h-6 w-6" />
@@ -52,7 +51,7 @@ const CallForPrice = ({
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => reachGoal('whatsapp_click', { placement: 'call_for_price' })}
+            data-track-placement="call_for_price"
             className="inline-flex items-center rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white transition hover:bg-[#1ebe5b]"
           >
             <MessageCircle className="mr-2 h-5 w-5" />
@@ -62,7 +61,7 @@ const CallForPrice = ({
             href={TG_URL}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => reachGoal('telegram_click', { placement: 'call_for_price' })}
+            data-track-placement="call_for_price"
             className="inline-flex items-center rounded-full bg-[#229ED9] px-6 py-3 font-semibold text-white transition hover:bg-[#1d8dc2]"
           >
             <Send className="mr-2 h-5 w-5" />
@@ -72,7 +71,7 @@ const CallForPrice = ({
             href={MAX_URL}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => reachGoal('max_click', { placement: 'call_for_price' })}
+            data-track-placement="call_for_price"
             className="inline-flex items-center rounded-full bg-white px-6 py-3 font-semibold text-[#003F3B] transition hover:bg-white/90"
           >
             <img src={maxIcon} alt="Max" className="mr-2 h-5 w-5 rounded" />

@@ -1,5 +1,4 @@
 import { MessageCircle, Phone } from 'lucide-react';
-import { reachGoal } from '@/lib/metrika';
 import { useLocation } from 'react-router-dom';
 
 const PHONE_HREF = 'tel:+79002885255';
@@ -33,7 +32,7 @@ const FloatingContact = () => {
         <a
           href={PHONE_HREF}
           aria-label="Позвонить"
-          onClick={() => reachGoal('phone_click')}
+          data-track-placement="floating_contact"
           className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full px-4 text-[15px] font-semibold text-foreground transition-colors hover:bg-muted active:scale-[0.98]"
         >
           <Phone className="h-4 w-4 fill-current" aria-hidden="true" />

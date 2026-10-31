@@ -25,7 +25,6 @@ import Footer from '@/components/Footer';
 import BeforeAfterSlider from '@/components/BeforeAfterSlider';
 import CallForPrice from '@/components/CallForPrice';
 import YandexReviewsSection from '@/components/YandexReviewsSection';
-import { reachGoal } from '@/lib/metrika';
 import maxIcon from '@/assets/max-icon.webp';
 
 const heroImg = { url: '/images/okna/hero.webp' };
@@ -219,7 +218,7 @@ const WindowsCleaning = () => {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild size="lg" className="rounded-full px-7 bg-[#41BFAE] hover:bg-[#41BFAE]/90 text-[#003F3B] font-semibold shadow-xl">
-                  <a href={phoneHref} onClick={() => reachGoal('phone_click')}>
+                  <a href={phoneHref}>
                     <Phone className="w-5 h-5 mr-2" />Узнать цену по телефону
                   </a>
                 </Button>
@@ -394,7 +393,7 @@ const WindowsCleaning = () => {
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <Button asChild size="lg" className="rounded-full px-7 bg-[#41BFAE] hover:bg-[#41BFAE]/90 text-[#003F3B]">
-                  <a href={phoneHref} onClick={() => reachGoal('phone_click')}>
+                  <a href={phoneHref}>
                     <Phone className="w-5 h-5 mr-2" />{phone}
                   </a>
                 </Button>

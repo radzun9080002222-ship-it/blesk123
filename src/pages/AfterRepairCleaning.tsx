@@ -13,7 +13,6 @@ import Footer from '@/components/Footer';
 import BeforeAfterSlider from '@/components/BeforeAfterSlider';
 import CallForPrice from '@/components/CallForPrice';
 import YandexReviewsSection from '@/components/YandexReviewsSection';
-import { reachGoal } from '@/lib/metrika';
 import maxIcon from '@/assets/max-icon.webp';
 
 const hero = '/images/repair/hero_gostinaya.webp';
@@ -178,7 +177,7 @@ const AfterRepairCleaning = () => {
                   size="lg"
                   className="rounded-full px-7 bg-[#41BFAE] hover:bg-[#41BFAE]/90 text-[#003F3B] font-semibold shadow-xl"
                 >
-                  <a href="tel:+79002885255" onClick={() => reachGoal('phone_click')}>
+                  <a href="tel:+79002885255">
                     <Phone className="w-5 h-5 mr-2" />
                     Узнать цену по телефону
                   </a>
@@ -457,7 +456,7 @@ const AfterRepairCleaning = () => {
                   size="lg"
                   className="rounded-full px-7 bg-[#41BFAE] hover:bg-[#41BFAE]/90 text-[#003F3B]"
                 >
-                  <a href={`tel:${phone.replace(/\s|-/g, '')}`} onClick={() => reachGoal('phone_click')}>
+                  <a href={`tel:${phone.replace(/\s|-/g, '')}`}>
                     <Phone className="w-5 h-5 mr-2" />
                     {phone}
                   </a>
