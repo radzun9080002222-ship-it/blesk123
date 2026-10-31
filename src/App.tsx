@@ -8,6 +8,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { lazy, Suspense } from "react";
 
 import Index from "./pages/Index";
+import RouteMetadata from "./components/RouteMetadata";
 import FloatingContact from "./components/FloatingContact";
 
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -32,6 +33,7 @@ const App = () => (
 <Sonner />
 
 <BrowserRouter basename="/">
+<RouteMetadata />
 <Suspense fallback={null}>
 <Routes>
 <Route path="/" element={<Index />} />
