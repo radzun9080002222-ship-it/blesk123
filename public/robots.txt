@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /calc
 
-Sitemap: https://blesk-23.ru/sitemap.xml
+Sitemap: https://blesk123.ru/sitemap.xml

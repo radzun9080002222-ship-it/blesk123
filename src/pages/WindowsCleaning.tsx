@@ -147,7 +147,7 @@ const WindowsCleaning = () => {
           name="description"
           content="Профессиональная мойка окон в Сочи: квартиры, дома, панорамное остекление, балконы, после ремонта. Без разводов, выезд в день обращения. Реальные отзывы — в Яндекс Картах."
         />
-        <link rel="canonical" href="https://blesk-23.ru/moyka-okon-sochi" />
+        <link rel="canonical" href="https://blesk123.ru/moyka-okon-sochi" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',

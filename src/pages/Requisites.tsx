@@ -7,7 +7,7 @@ const Requisites = () => (
     <Helmet>
       <title>Реквизиты | Империя Блеска</title>
       <meta name="description" content="Реквизиты и контактные данные ООО «ИМПЕРИЯ БЛЕСКА»." />
-      <link rel="canonical" href="https://blesk-23.ru/requisites" />
+      <link rel="canonical" href="https://blesk123.ru/requisites" />
     </Helmet>
     <Header />
     <main className="pt-32 pb-20">

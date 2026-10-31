@@ -7,7 +7,7 @@ const Privacy = () => (
     <Helmet>
       <title>Политика обработки персональных данных | Империя Блеска</title>
       <meta name="robots" content="noindex, follow" />
-      <link rel="canonical" href="https://blesk-23.ru/privacy" />
+      <link rel="canonical" href="https://blesk123.ru/privacy" />
     </Helmet>
 
     <Header />
@@ -22,7 +22,7 @@ const Privacy = () => (
           <p>
             Настоящая Политика обработки персональных данных (далее — Политика) действует в отношении
             всей информации, которую ООО «ИМПЕРИЯ БЛЕСКА» (далее — Оператор) может получить о посетителях
-            сайта https://blesk-23.ru.
+            сайта https://blesk123.ru.
           </p>
 
           <h2 className="font-heading text-xl font-bold text-foreground">1. Оператор персональных данных</h2>

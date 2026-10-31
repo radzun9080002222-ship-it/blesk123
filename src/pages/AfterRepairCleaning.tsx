@@ -100,7 +100,7 @@ const AfterRepairCleaning = () => {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Империя Блеска',
-    image: 'https://blesk-23.ru/images/repair/hero_gostinaya.webp',
+    image: 'https://blesk123.ru/images/repair/hero_gostinaya.webp',
     telephone: '+79002885255',
     email: 'imperiableska2025@gmail.com',
     address: {
@@ -122,7 +122,7 @@ const AfterRepairCleaning = () => {
           name="description"
           content="Уборка после ремонта в Сочи от 280 ₽/м². Удалим строительную пыль, плёнку, краску и затирку за 1 день. Точная цена в WhatsApp за 2 минуты. Реальные отзывы — в Яндекс Картах."
         />
-        <link rel="canonical" href="https://blesk-23.ru/uborka-posle-remonta-sochi" />
+        <link rel="canonical" href="https://blesk123.ru/uborka-posle-remonta-sochi" />
         <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
         <script type="application/ld+json">{JSON.stringify(localBusinessJsonLd)}</script>
       </Helmet>

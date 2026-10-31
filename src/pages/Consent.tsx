@@ -7,7 +7,7 @@ const Consent = () => (
     <Helmet>
       <title>Согласие на обработку персональных данных | Империя Блеска</title>
       <meta name="robots" content="noindex, follow" />
-      <link rel="canonical" href="https://blesk-23.ru/consent" />
+      <link rel="canonical" href="https://blesk123.ru/consent" />
     </Helmet>
 
     <Header />
@@ -18,7 +18,7 @@ const Consent = () => (
         </h1>
         <div className="space-y-6 leading-relaxed text-muted-foreground">
           <p>
-            Устанавливая отметку в форме и отправляя заявку на сайте blesk-23.ru, я свободно, своей волей
+            Устанавливая отметку в форме и отправляя заявку на сайте blesk123.ru, я свободно, своей волей
             и в своём интересе даю ООО «ИМПЕРИЯ БЛЕСКА» (ИНН 2367029343, ОГРН 1232300006608) согласие
             на обработку моих персональных данных.
           </p>

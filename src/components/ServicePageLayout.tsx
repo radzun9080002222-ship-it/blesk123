@@ -61,7 +61,7 @@ const ServicePageLayout = ({
       <Helmet>
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
-        <link rel="canonical" href={`https://blesk-23.ru${window.location.pathname}`} />
+        <link rel="canonical" href={`https://blesk123.ru${window.location.pathname}`} />
         {faq && faq.length > 0 && (
           <script type="application/ld+json">
             {JSON.stringify({

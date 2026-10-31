@@ -69,7 +69,7 @@ export function buildCalendarEvent(booking: CalendarBooking, id: string): Cleani
       booking.newClient ? 'Новый клиент: да' : '',
       booking.privateHouse ? 'Объект: частный дом' : '',
       booking.declaredSource ? `Источник со слов клиента: ${booking.declaredSource}` : '',
-      'Запись создана внутренним калькулятором blesk-23.ru. Время в календаре: 1 час.',
+      'Запись создана внутренним калькулятором blesk123.ru. Время в календаре: 1 час.',
     ].filter(Boolean).join('\n\n')),
     start: { dateTime: start, timeZone: 'Europe/Moscow' },
     end: { dateTime: new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString(), timeZone: 'Europe/Moscow' },

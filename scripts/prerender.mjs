@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
 const dist = 'dist';
-const base = 'https://blesk-23.ru';
+const base = 'https://blesk123.ru';
 
 const routes = {
   '/': {
@@ -39,12 +39,12 @@ const routes = {
   },
   '/privacy': {
     title: 'Политика обработки персональных данных | Империя Блеска',
-    description: 'Политика обработки персональных данных ООО «ИМПЕРИЯ БЛЕСКА» — оператора сайта blesk-23.ru.',
+    description: 'Политика обработки персональных данных ООО «ИМПЕРИЯ БЛЕСКА» — оператора сайта blesk123.ru.',
     robots: 'noindex, follow',
   },
   '/consent': {
     title: 'Согласие на обработку персональных данных | Империя Блеска',
-    description: 'Согласие на обработку персональных данных пользователей сайта blesk-23.ru.',
+    description: 'Согласие на обработку персональных данных пользователей сайта blesk123.ru.',
     robots: 'noindex, follow',
   },
   '/requisites': {
